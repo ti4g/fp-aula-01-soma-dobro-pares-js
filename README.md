@@ -1,8 +1,7 @@
 # Implementando Funções para Processamento de Dados com Programação Funcional e Estruturada em JS
 
-Este é um projeto [Node.js](http://nodejs.org), que usa JavaScript no backeend. 
-O projeto fornece a estrutura básica para você implementar a soma do dobro de um conjunto de números pares
-em duas implementações diferentes: uma funcional e uma estruturada (procedural).
+Este é um projeto [Node.js](http://nodejs.org), logo usa JavaScript no backend. 
+O projeto fornece apenas a estrutura básica para você implementar a soma do dobro de um conjunto de números pares em duas implementações diferentes: uma funcional e uma estruturada (procedural).
 
 O projeto está estruturado da seguinte forma:
 
@@ -15,7 +14,12 @@ O projeto está estruturado da seguinte forma:
   as funções múltiplas vezes com vetores distintos, ou qualquer outra coisa que queira.
 - [test/math-test.js](test/math-test.js): arquivo com testes unitários para verificar se suas implementações estão minimamente funcionando como esperado. Você não precisa se preocupar com o código de tal arquivo.
 
-## Pré-requisitos para rodar o projeto
+## 1. Como usar o projeto para treinar programação funcional
+
+Este repositório é um template que você pode copiar clicando no botão "Use this template" no topo da página.
+Assim, será criada uma cópia do repositório que você pode alterar como desejado.
+
+## 2. Pré-requisitos para rodar o projeto
 
 Você precisa da uma versão atual do Node.js (20+).
 No linux, basta instalar com:
@@ -27,7 +31,7 @@ sudo apt install nodejs npm -y
 
 No windows, pode baixar o instalador em http://nodejs.org.
 
-## Rodando o projeto
+## 3. Rodando o projeto
 
 Para rodar o projeto, basta abrir um terminal na pasta raiz e digitar:
 
@@ -37,7 +41,7 @@ npm start
 
 Assim, o arquivo index.js será executado e você poderá ver o resultado à medida que for implementando as funções em [src/math.js](src/math.js).
 
-## Testando sua implementação das funções
+## 4. Testando sua implementação das funções
 
 Para verificar se suas implementações da soma do dobro dos números pares está funcionando minimamente, execute:
 
