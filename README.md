@@ -25,8 +25,10 @@ Você precisa da uma versão atual do Node.js (20+).
 No linux, basta instalar com:
 
 ```bash
-sudo apt update
-sudo apt install nodejs npm -y
+sudo apt install -y curl
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+sudo apt update -y
+sudo apt install nodejs -y
 ```
 
 No windows, pode baixar o instalador em http://nodejs.org.
