@@ -22,7 +22,7 @@ Assim, será criada uma cópia do repositório que você pode alterar como desej
 
 ## 2. Pré-requisitos para rodar o projeto
 
-Você precisa da uma versão atual do Node.js (20+).
+Você precisa de uma versão atual do Node.js (20+).
 No linux, basta instalar com:
 
 ```bash
