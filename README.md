@@ -16,8 +16,8 @@ O projeto está estruturado da seguinte forma:
 
 ## 1. Como usar o projeto para treinar programação funcional
 
-Este repositório é um template que você pode copiar clicando no botão "Use this template" e depois "Create new repository" no topo da página.
-Assim, será criada uma cópia do repositório que você pode alterar como desejado.
+Você deve criar uma cópia deste repositório clicando no botão "For" no canto superior direito da página.
+
 **O botão só aparece se você estiver logado no GitHub.**
 
 ## 2. Pré-requisitos para rodar o projeto
