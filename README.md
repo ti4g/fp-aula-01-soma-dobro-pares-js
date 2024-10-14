@@ -17,7 +17,6 @@ O projeto está estruturado da seguinte forma:
 ## 1. Como usar o projeto para treinar programação funcional
 
 Você deve criar uma cópia deste repositório clicando no botão "Fork" no canto superior direito da página.
-
 **O botão só aparece se você estiver logado no GitHub.**
 
 ## 2. Pré-requisitos para rodar o projeto
