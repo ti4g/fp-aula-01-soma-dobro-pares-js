@@ -8,7 +8,11 @@
  * @param {Array} numeros vetor com os números desejados
  */
 function somaDobroNumerosParesFuncional(numeros){
-    // TODO: Insira seu código funcional aqui
+    return numeros
+    .filter(n => n%2 === 0)
+        .map(n => n * 2)
+        .reduce((acc, n ) => acc + n, 0)
+    // acc = acumulador
 }
 
 /**
@@ -17,7 +21,16 @@ function somaDobroNumerosParesFuncional(numeros){
  * @param {Array} numeros vetor com os números desejados
  */
 function somaDobroNumerosParesProcedural(numeros){
-    // TODO: Insira seu código estruturado aqui   
+    let sum= 0;
+
+    for (let i = 0; i < numeros.length; i++) {
+        const numAtual = numeros[i];
+
+        if (numAtual % 2 === 0) {
+            sum += numAtual * 2;
+        }
+    }
+    return sum;
 }
 
 export { somaDobroNumerosParesFuncional, somaDobroNumerosParesProcedural };
